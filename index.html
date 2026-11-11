@@ -1,0 +1,536 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="theme-color" content="#f8f4ec">
+
+    <title>Mangalyam Invitations | Wedding Celebration</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Cormorant+Garamond:wght@400;500;600;700&family=Poppins:wght@300;400;500&family=Great+Vibes&display=swap"
+rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Cormorant+Garamond:wght@400;500;600;700&family=Poppins:wght@300;400;500&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    
+<!-- PREMIUM ENVELOPE OPENING EXPERIENCE -->
+<div class="intro-screen" id="introScreen">
+  <div class="envelope-stage">
+    <div class="invitation-envelope" id="invitationEnvelope">
+      <div class="envelope-back"></div>
+      <div class="envelope-side envelope-side-left"></div>
+      <div class="envelope-side envelope-side-right"></div>
+      <div class="envelope-bottom"></div>
+      <div class="invitation-card">
+        <div class="card-ornament">
+          <span class="ornament-corner ornament-top-left">❧</span>
+          <span class="ornament-corner ornament-top-right">❧</span>
+          <span class="ornament-corner ornament-bottom-left">❧</span>
+          <span class="ornament-corner ornament-bottom-right">❧</span>
+          <div class="card-names" id="introNames">Shreya <span>&</span> Yash</div>
+          <div class="card-date" id="introDate">9 – 11 FEBRUARY 2027</div>
+        </div>
+      </div>
+      <div class="envelope-flap"></div>
+      <div class="envelope-seal"><span>❀</span></div>
+      <div class="envelope-floral floral-left">❀<br>✿<br>❀</div>
+      <div class="envelope-floral floral-right">❀<br>✿<br>❀</div>
+    </div>
+    <button class="envelope-open-button" id="openInvitation">CLICK TO OPEN</button>
+  </div>
+</div>
+
+<!-- Music -->
+    <audio id="weddingMusic" loop>
+        <source src="assets/audio/wedding-music.mp3" type="audio/mpeg">
+    </audio>
+
+    <button class="music-button" id="musicButton" aria-label="Toggle music">
+        ♫
+    </button>
+
+
+    <!-- Main Website -->
+    <main id="mainWebsite" class="hidden">
+
+        
+<!-- PREMIUM HERO SECTION -->
+<section class="hero section" id="home">
+
+    <div class="hero-frame">
+
+        <div class="hero-top-decoration">✧ ❀ ✧</div>
+
+        <p class="eyebrow">
+            TOGETHER WITH OUR FAMILIES
+        </p>
+
+        <div class="hero-emblem">
+            <span>ॐ</span>
+        </div>
+
+        <p class="hero-blessing" id="heroBlessing">
+            With the blessings of the Almighty
+        </p>
+
+        <div class="hero-name-group">
+
+            <h1 class="couple-names">
+                <span id="brideName">Ananya</span>
+
+                <span class="ampersand">&</span>
+
+                <span id="groomName">Arjun</span>
+            </h1>
+
+        </div>
+
+        <div class="hero-ornament">
+            <span></span>
+            <i>❀</i>
+            <span></span>
+        </div>
+
+        <p class="hero-subtitle" id="heroSubtitle">
+            Together with our families, we invite you
+            to celebrate our beautiful beginning.
+        </p>
+
+        <div class="hero-date">
+            <span class="date-line"></span>
+            <span id="weddingDate">14 February 2027</span>
+            <span class="date-line"></span>
+        </div>
+
+        <p class="hero-bottom-text">
+            TWO SOULS · ONE BEAUTIFUL JOURNEY
+        </p>
+
+        <a href="#blessings" class="scroll-link">
+            DISCOVER OUR CELEBRATION
+            <span>↓</span>
+        </a>
+
+    </div>
+
+</section>
+
+
+
+        
+<!-- FAMILY BLESSINGS -->
+<section class="section blessings" id="blessings">
+
+    <div class="blessing-frame">
+
+        <p class="eyebrow">A SACRED BEGINNING</p>
+
+        <div class="blessing-symbol">
+            <span>ॐ</span>
+        </div>
+
+        <h2>With Love & Blessings</h2>
+
+        <div class="blessing-divider">
+            <span></span>
+            <i>✧</i>
+            <span></span>
+        </div>
+
+        <p class="blessing-intro">
+            With the blessings of the Almighty
+            and the love of our families,
+            we joyfully invite you to celebrate
+            our beautiful union.
+        </p>
+
+        <div class="family-heading">
+            TWO FAMILIES, ONE BEAUTIFUL BOND
+        </div>
+
+        <div class="family-grid">
+
+            <div class="family-card">
+
+                <div class="family-flower">❀</div>
+
+                <p class="family-label">DAUGHTER OF</p>
+
+                <h3 id="brideParents">
+                    Mr. & Mrs. Sharma
+                </h3>
+
+                <div class="family-line"></div>
+
+                <p class="family-role">Bride's Family</p>
+
+            </div>
+
+            <div class="family-card">
+
+                <div class="family-flower">❀</div>
+
+                <p class="family-label">SON OF</p>
+
+                <h3 id="groomParents">
+                    Mr. & Mrs. Reddy
+                </h3>
+
+                <div class="family-line"></div>
+
+                <p class="family-role">Groom's Family</p>
+
+            </div>
+
+        </div>
+
+        <div class="blessing-closing">
+
+            <span>❧</span>
+
+            <p>
+                Your presence and blessings
+                will make this occasion truly special.
+            </p>
+
+            <span>❧</span>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+        <!-- Our Story -->
+        <section class="section story" id="story">
+
+            <p class="eyebrow">TWO HEARTS, ONE JOURNEY</p>
+
+            <h2>Our Story</h2>
+
+            <div class="story-photo">
+                <img src="assets/images/1.jpeg"
+                     alt="Ananya and Arjun"
+                     onerror="this.style.display='none'">
+            </div>
+
+            <p class="story-text">
+                Some journeys are written in the stars.
+                Ours is a beautiful story of love, friendship
+                and a promise to walk together forever.
+            </p>
+
+        </section>
+
+
+        
+<!-- INTERACTIVE LOVE EXPERIENCE -->
+<section class="section proposal" id="proposal">
+
+    <div class="proposal-frame">
+
+        <p class="eyebrow">A LITTLE MOMENT OF LOVE</p>
+
+        <div class="proposal-ornament">✧ ❀ ✧</div>
+
+        <h2>A Special Invitation</h2>
+
+        <p class="proposal-intro">
+            Every beautiful celebration becomes
+            more memorable with the people we love.
+        </p>
+
+        <div class="love-card" id="loveCard">
+
+            <div class="love-card-top">
+                <span>WITH LOVE</span>
+                <span>♡</span>
+            </div>
+
+            <div class="love-heart" id="loveHeart">♡</div>
+
+            <h3 id="proposalQuestion">
+                Will you join us<br>
+                for our forever celebration?
+            </h3>
+
+            <div class="proposal-divider">
+                <span></span>
+                <i>✧</i>
+                <span></span>
+            </div>
+
+            <p id="proposalMessage">
+                Your presence would make
+                our special day even more beautiful.
+            </p>
+
+            <div class="proposal-actions" id="proposalActions">
+
+                <button class="proposal-yes" id="yesButton">
+                    YES, I'LL BE THERE
+                    <span>♡</span>
+                </button>
+
+                <button class="proposal-no" id="noButton">
+                    SEND MY LOVE
+                </button>
+
+            </div>
+
+            <div class="proposal-success hidden" id="proposalSuccess">
+
+                <div class="success-heart">♥</div>
+
+                <h3>Our hearts are happy!</h3>
+
+                <p>
+                    Thank you for being a part
+                    of our beautiful journey.
+                    We cannot wait to celebrate with you!
+                </p>
+
+                <span class="success-signature">
+                    WITH LOVE, ANANYA & ARJUN
+                </span>
+
+            </div>
+
+        </div>
+
+        <p class="proposal-footer">
+            A DAY OF LOVE · A LIFETIME OF MEMORIES
+        </p>
+
+    </div>
+
+</section>
+
+
+
+        <!-- Save the Date -->
+        <section class="section save-date" id="saveDate">
+
+            <p class="eyebrow">MARK YOUR CALENDAR</p>
+
+            <h2>Save The Date</h2>
+
+            <div class="countdown" id="countdown">
+
+                <div>
+                    <strong id="days">00</strong>
+                    <span>DAYS</span>
+                </div>
+
+                <div>
+                    <strong id="hours">00</strong>
+                    <span>HOURS</span>
+                </div>
+
+                <div>
+                    <strong id="minutes">00</strong>
+                    <span>MINUTES</span>
+                </div>
+
+                <div>
+                    <strong id="seconds">00</strong>
+                    <span>SECONDS</span>
+                </div>
+
+            </div>
+
+            <h3 id="saveDateNames">Ananya & Arjun</h3>
+
+            <p>Forever begins here.</p>
+
+        </section>
+
+
+        
+
+<!-- ROYAL WEDDING EVENTS -->
+<section class="section events" id="events">
+
+    <div class="events-container">
+
+        <p class="events-date-range">
+            9 – 11 FEBRUARY 2027
+        </p>
+
+        <h2 class="events-main-title">
+            Events
+        </h2>
+
+        <div class="events-floral-decoration">
+            ✧ ❀ ✧
+        </div>
+
+        <div class="event-gallery" id="eventList">
+
+            <!-- Event cards generated from config.js -->
+
+        </div>
+
+        <div class="events-bottom">
+            <span>✧</span>
+
+            <p>
+                CELEBRATING LOVE, TRADITIONS & TOGETHERNESS
+            </p>
+
+            <span>✧</span>
+        </div>
+
+    </div>
+
+</section>
+
+
+
+
+        <!-- Venue -->
+        <section class="section venue" id="venue">
+
+            <p class="eyebrow">JOIN OUR CELEBRATION</p>
+
+            <h2>The Wedding Venue</h2>
+
+            <div class="venue-card">
+
+                <div class="venue-icon">⌖</div>
+
+                <h3 id="venueName"></h3>
+
+                <p id="venueAddress"></p>
+
+                <a id="mapLink"
+                   href="#"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="gold-button">
+                    GET DIRECTIONS
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- Gallery -->
+        <section class="section gallery" id="gallery">
+
+            <p class="eyebrow">MOMENTS TO REMEMBER</p>
+
+            <h2>Our Memories</h2>
+
+            <div class="gallery-grid">
+
+                <img src="assets/images/2.jpeg"
+                     alt="Wedding memory 1">
+
+                <img src="assets/images/3.jpeg"
+                     alt="Wedding memory 2">
+
+                <img src="assets/images/4.jpeg"
+                     alt="Wedding memory 3">
+
+            </div>
+
+        </section>
+
+
+        <!-- RSVP -->
+        <section class="section rsvp" id="rsvp">
+
+            <p class="eyebrow">WE WOULD LOVE TO SEE YOU</p>
+
+            <h2>Will You Be There?</h2>
+
+            <p>
+                Your presence will make our celebration
+                even more special.
+            </p>
+
+            <a id="whatsappLink"
+               href="#"
+               target="_blank"
+               rel="noopener noreferrer"
+               class="gold-button">
+                CONFIRM VIA WHATSAPP
+            </a>
+
+        </section>
+
+
+        <!-- Footer -->
+        <footer class="footer">
+
+            <div class="footer-ornament">✧ ❀ ✧</div>
+
+            <h2 id="footerNames">Ananya & Arjun</h2>
+
+            <p>With love, together forever.</p>
+
+            <div class="footer-brand">
+                Designed with love by
+                <strong>Mangalyam Invitations</strong>
+            </div>
+
+        </footer>
+
+    </main>
+
+
+    <script src="js/config.js"></script>
+    <script src="js/script.js"></script>
+
+    <!-- Independent envelope opener: does not depend on the rest of the site JS. -->
+    <script>
+      (() => {
+        const button = document.getElementById("openInvitation");
+        const envelope = document.getElementById("invitationEnvelope");
+        const intro = document.getElementById("introScreen");
+        const website = document.getElementById("mainWebsite");
+        let isOpening = false;
+
+        if (!button || !envelope || !intro || !website) {
+          console.error("Envelope opener: a required HTML element is missing.");
+          return;
+        }
+
+        button.addEventListener("click", () => {
+          if (isOpening) return;
+          isOpening = true;
+          button.disabled = true;
+          envelope.classList.add("open");
+          button.textContent = "OPENING YOUR INVITATION...";
+
+          // Reveal the website after the envelope animation has started.
+          window.setTimeout(() => {
+            website.classList.remove("hidden");
+            intro.classList.add("close");
+            window.scrollTo({ top: 0, behavior: "instant" });
+          }, 1500);
+
+          // Remove the opening screen from interaction after its fade-out.
+          window.setTimeout(() => {
+            intro.style.display = "none";
+          }, 2900);
+        });
+      })();
+    </script>
+
+</body>
+</html>
